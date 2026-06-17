@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/reset.css">
+    <link rel="stylesheet" href="/dist/css/normalize.css">
+    <link rel="stylesheet" href="/dist/css/style.min.css">
+    <title>Культурный центр "Елизавета Мамонтова"</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- хедер -->
+    <div class="main-section">
+        <div class="main-section__nav-background"></div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="container main-section_nav-container">
+            <header>
+                <a href="index.html">
+                    <img src="/src/icons/fullLogo.svg" alt="логотип" class="header__logo-full">
+                    <img src="/src/icons/logo.svg" alt="логотип" class="header__logo-mobile">
+                </a>
+            </header>
+            <nav class="main-section__nav nav-menu">
+
+                <button class="nav-menu__close">×</button>
+
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__list-item"><a href="index.html">Главная</a></li>
+                    <li class="nav-menu__list-item nav-menu__dropdown">
+                        <a href="#" class="nav-menu__link nav-menu__link_active">Посетителям</a>
+                        <ul class="nav-menu__submenu">
+                            <li><a href="afisha.html">Афиша</a></li>
+                            <li><a href="#">Кружки и клубы</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Виртуальная экскурсия</a></li>
+                            <li><a href="#">Наш зал</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu__list-item"><a href="#">О нас</a></li>
+                    <li class="nav-menu__list-item"><a href="#">Контакты</a></li>
+                    <li class="nav-menu__list-item_icon">
+                        <a href="#"><img src="/src/icons/visuallyImpaired.svg" alt=""></a>
+                    </li>
+                    <li class="nav-menu__list-item_icon">
+                        <a href="#"><img src="/src/icons/serch.svg" alt=""></a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="header__actions">
+                <a href="#" class="header__icon">
+                    <img src="/src/icons/visuallyImpaired.svg" alt="">
+                </a>
+                <a href="#" class="header__icon">
+                    <img src="/src/icons/serch.svg" alt="">
+                </a>
+            </div>
+            
+            <div class="nav-overlay"></div>
+            
+        </div>
+    </div>
+
+    <!-- карточка фильма -->
+     <section class="film-card">
+
+        <div class="film-card__wrapper"  id="cover-end">
+
+            <img src="img/Постер3.png"
+                alt="Волчок"
+                class="film-card__poster">
+
+            <div class="film-card__info">
+
+                <div class="film-card__header">
+                    <h1 class="film-card__title">
+                        Волчок
+                    </h1>
+
+                    <span class="film-card__age">
+                        16+
+                    </span>
+                </div>
+
+                <div class="film-card__text-wrapper">
+
+                    <p class="film-card__description">
+                        Российская империя. Рубеж XIX и XX веков. Тринадцатилетний дворянин и сирота Ваня Огарев бежит из Москвы в Нижний Новгород, спасаясь от убийц, подосланных его собственным дядей, решившим завладеть наследством мальчика. Для своей защиты Ваня нанимает случайно подвернувшегося ему кулачного бойца Волчка. Волчок должен помочь Ване добраться в целости и сохранности до Нижнего — там его ждет верный друг отца. Но все мероприятие с самого начала трещит по швам: фантазер, аристократ, эстет Ваня и неотесанный, хмурый мужик Волчок с самого начала едва выносят друг друга. Впереди их ждет опасное путешествие, которое навсегда изменит их обоих.
+                    </p>
+
+                    <button class="film-card__expand">
+                        <span>Развернуть</span>
+                        <img src="icons/СтрелкаРазвернуть.svg" alt="">
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="film-card__bottom">
+
+            <div class="film-card__rating">
+
+                <span class="film-card__rating-text">
+                    Рейтинг
+                </span>
+
+                <div class="film-card__stars">
+                    <span class="film-card__star film-card__star_active">★</span>
+                    <span class="film-card__star film-card__star_active">★</span>
+                    <span class="film-card__star film-card__star_active">★</span>
+                    <span class="film-card__star film-card__star_active">★</span>
+                    <span class="film-card__star">★</span>
+                </div>
+
+                <span class="film-card__score">
+                    7.8
+                </span>
+
+            </div>
+
+            <button class="film-card__btn">
+                Купить билет
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- информвция -->
+    <div class="film-info">
+
+        <div class="film-info__row">
+            <span class="film-info__label">Страна</span>
+            <span class="film-info__value">Россия</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Продолжительность</span>
+            <span class="film-info__value">2 часа 3 минуты</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Год выпуска</span>
+            <span class="film-info__value">2025</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Премьера в мире</span>
+            <span class="film-info__value">4 декабря 2025</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">
+                Дата выхода
+                <img src="icons/КнопкаРазвернутьЖирная.svg" alt="">
+            </span>
+
+            <div class="film-info__value film-info__value_multiple">
+                <span>4 декабря 2025</span>
+                <span>Россия</span>
+            </div>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Бюджет</span>
+            <span class="film-info__value">350 000 000 RUR</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Сборы в мире</span>
+            <span class="film-info__value">$2 032 097</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Производство</span>
+            <span class="film-info__value">MEM Cinema Production</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">
+                Другие названия
+                <img src="icons/КнопкаРазвернутьЖирная.svg" alt="">
+            </span>
+
+            <span class="film-info__value">
+                Volchok, Волчок, Кулачный
+            </span>
+        </div>
+
+    </div>
+
+    <!-- трейлер -->
+     <div class="film-trailer">
+
+        <img src="icons/КраснаяЗвезда.svg"
+            alt=""
+            class="film-trailer__star film-trailer__star_left">
+
+        <img src="icons/КраснаяЗвезда.svg"
+            alt=""
+            class="film-trailer__star film-trailer__star_right">
+
+        <div class="film-trailer__wrapper">
+
+            <div class="film-trailer__title">
+                Трейлер
+            </div>
+
+            <div class="film-trailer__video">
+
+                <img src="img/Превью.png" alt="Трейлер фильма">
+
+                <button class="film-trailer__play">
+                    <img src="icons/КнопкаPlay.svg" alt="play">
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- каст -->
+     <section class="film-team">
+
+        <div class="film-team__wrapper">
+
+            <div class="film-team__director">
+
+                <h2 class="film-team__title">
+                    Режиссер
+                </h2>
+
+                <div class="film-team__person">
+
+                    <img src="img/Фото1.png"
+                        alt="Константин Смирнов"
+                        class="film-team__photo">
+
+                    <span class="film-team__name">
+                        Константин<br>Смирнов
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="film-team__divider"></div>
+
+            <div class="film-team__cast">
+
+                <h3 class="film-team__title">
+                    В ролях
+                </h3>
+
+                <div class="film-team__actors">
+
+                    <div class="film-team__person">
+                        <img src="img/Фото2.png" alt="">
+                        <span>Евгений<br>Ткачук</span>
+                    </div>
+
+                    <div class="film-team__person">
+                        <img src="img/Фото3.png" alt="">
+                        <span>Юлия<br>Хлынина</span>
+                    </div>
+
+                    <div class="film-team__person">
+                        <img src="img/Фото4.png" alt="">
+                        <span>Марк-Малик<br>Мурашкин</span>
+                    </div>
+
+                    <div class="film-team__person">
+                        <img src="img/Фото5.png" alt="">
+                        <span>Андрей<br>Смоляков</span>
+                    </div>
+
+                    <div class="film-team__person">
+                        <img src="img/Фото6.png" alt="">
+                        <span>Сергей<br>Маковецкий</span>
+                    </div>
+
+                </div>
+ 
+            </div>
+
+            <a href="#" class="film-team__more">
+                Подробнее
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- расписание -->
+    <section class="film-schedule">
+
+        <img src="icons/3полоскиВертикальныеСлева.svg"
+            alt=""
+            class="film-schedule__decor film-schedule__decor_left">
+
+        <img src="icons/3полоскиВертикальныеСправа.svg"
+            alt=""
+            class="film-schedule__decor film-schedule__decor_right">
+
+        <div class="film-schedule__wrapper">
+
+            <h2 class="film-schedule__title">
+                Расписание и билеты
+            </h2>
+
+            <div class="film-schedule__day">
+
+                <p class="film-schedule__date">
+                    18 декабря (четверг)
+                </p>
+
+                <div class="film-schedule__sessions">
+
+                    <div class="film-schedule__session">
+                        <span class="film-schedule__time">13:15</span>
+                        <span class="film-schedule__price">от 170 ₽</span>
+                    </div>
+
+                    <div class="film-schedule__session">
+                        <span class="film-schedule__time">17:25</span>
+                        <span class="film-schedule__price">от 240 ₽</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="film-schedule__day">
+
+                <p class="film-schedule__date">
+                    21 декабря (воскресенье)
+                </p>
+
+                <div class="film-schedule__sessions">
+
+                    <div class="film-schedule__session">
+                        <span class="film-schedule__time">13:45</span>
+                        <span class="film-schedule__price">от 350 ₽</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="film-schedule__day">
+
+                <p class="film-schedule__date">
+                    22 декабря (понедельник)
+                </p>
+
+                <div class="film-schedule__sessions">
+
+                    <div class="film-schedule__session">
+                        <span class="film-schedule__time">13:15</span>
+                        <span class="film-schedule__price">от 170 ₽</span>
+                    </div>
+
+                    <div class="film-schedule__session">
+                        <span class="film-schedule__time">17:25</span>
+                        <span class="film-schedule__price">от 240 ₽</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="film-schedule__btn">
+                Полное расписание
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- футер -->
+    <footer class="footer">
+
+        <div class="footer__top-line"></div>
+
+        <div class="footer__container">
+
+            <div class="footer__contacts">
+
+                <div class="footer__item">
+                    <h3>Телефон:</h3>
+                    <p>+7 496 543-22-14</p>
+                </div>
+
+                <div class="footer__item">
+                    <h3>Почта:</h3>
+                    <p>centrmamontovoi@yandex.ru</p>
+                </div>
+
+                <div class="footer__item">
+                    <h3>Адрес:</h3>
+                    <p>
+                        Московская область, Сергиево-Посадский городской <br> округ, г. Хотьково, ул.Калинина, д.4-а
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="footer__socials">
+
+                <a href="#">
+                    <img src="icons/vk.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="icons/telegram.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="icons/ok.svg" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+        <button class="scroll-top">
+            <img src="icons/КнопкаНаверх.svg" alt="">
+        </button>
+
+    </footer>
+
+    <!-- окно заказа билета -->
+    <!-- <div class="ticket-modal">
+        <div class="ticket-modal__window">
+
+            <div class="ticket-modal__header">
+                <button class="ticket-modal__back">
+                    <img src="icons/КнопкаНазад-окно.svg" alt="Назад">
+                </button>
+
+                <h2 class="ticket-modal__title">Волчок</h2>
+
+                <button class="ticket-modal__close">
+                    ✕
+                </button>
+            </div>
+
+            <div class="ticket-modal__body">
+
+                <div class="ticket-modal__step ticket-modal__step_active" id="step-1">
+
+                    <div class="ticket-modal__section">
+                        <div class="ticket-modal__subtitle">
+                            Выберите дату сеанса
+                            <span class="ticket-modal__month">Декабрь</span>
+                        </div>
+
+                        <div class="ticket-modal__dates">
+                            <button class="ticket-modal__date"><b>ЧТ</b><br>18</button>
+                            <button class="ticket-modal__date"><b>ВТ</b><br>21</button>
+                            <button class="ticket-modal__date"><b>ПН</b><br>22</button>
+                            <button class="ticket-modal__date"><b>ВТ</b><br>23</button>
+                            <button class="ticket-modal__date"><b>СР</b><br>24</button>
+                        </div>
+                    </div>
+
+                    <div class="ticket-modal__section">
+
+                        <div class="ticket-modal__subtitle">
+                            Выберите время сеанса
+                        </div>
+
+                        <div class="ticket-modal__times">
+                            <button class="ticket-modal__time">
+                                13:15
+                            </button>
+
+                            <button class="ticket-modal__time">
+                                17:25
+                            </button>
+                        </div>
+
+                    </div>
+
+                        <button class="ticket-modal__next">
+                            Далее
+                        </button>
+
+                </div>
+
+                // выбор места
+                <div class="ticket-modal__step" id="step-2">
+
+                    <div class="ticket-modal__subtitle">
+                        Выберите место в зале
+                    </div>
+
+                    <div class="hall">
+                        <div class="hall__screen">
+                            <img src="icons/Экран.svg" alt="">
+                        </div>
+
+                        <div class="hall__rows">
+
+                            <div class="hall__row">
+                                
+                                <span class="hall__number">0</span>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                <span class="hall__number">0</span>
+                            </div>
+
+                            <div class="hall__row">
+                                <span class="hall__number">1</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">1</span>
+                            </div>
+
+                            <div class="hall__row">
+                                <span class="hall__number">2</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">2</span>
+                            </div>
+
+                            <div class="hall__row">
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                                <span class="hall__number">3</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">3</span>
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                            </div>
+
+                            <div class="hall__row">
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                                <span class="hall__number">4</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">4</span>
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                            </div>
+
+                            <div class="hall__row">
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                                <span class="hall__number">5</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">5</span>
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                            </div>
+
+                            <div class="hall__row">
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                                <span class="hall__number">6</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">6</span>
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                            </div>
+
+                            <div class="hall__row">
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                                <span class="hall__number">7</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">7</span>
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                            </div>
+
+                            <div class="hall__row">
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                                <span class="hall__number">8</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">8</span>
+
+                                <button class="hall__seat hall__seat_side"></button>
+
+                            </div>
+
+                            <div class="hall__row">
+
+                                <button class="hall__seat hall__seat_side"></button>
+                                <span class="hall__number hall__number_zero">0</span>
+
+                                <span class="hall__number">9</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">9</span>
+
+                                <span class="hall__number hall__number_zero">0</span>
+                                <button class="hall__seat hall__seat_side"></button>
+
+                            </div>
+
+                            <div class="hall__row">
+                                <span class="hall__number">10</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">10</span>
+                            </div>
+
+                            <div class="hall__row">
+                                <span class="hall__number">11</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">11</span>
+                            </div>
+
+                            <div class="hall__row">
+                                <span class="hall__number">12</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">12</span>
+                            </div>
+
+                            <div class="hall__row">
+                                <span class="hall__number">13</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat hall__seat_blue"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">13</span>
+                            </div>
+
+                            <div class="hall__row">
+                                <span class="hall__number">14</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                    <div class="hall__aisle"></div>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">14</span>
+                            </div>
+
+                            <div class="hall__row">
+                                <span class="hall__number">15</span>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                    <div class="hall__aisle"></div>
+
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+                                    <button class="hall__seat"></button>
+
+                                <span class="hall__number">15</span>
+                            </div>
+
+                            <div class="hall__gap"></div>
+
+                        </div>
+                    </div>
+
+                    <button class="ticket-modal__pay">
+                        Перейти к оплате
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="ticket-modal__footer">
+                <div>
+                    Тех.поддержка:
+                    <a href="support@premieralight.ru.">support@premieralight.ru.</a><br>
+                    Форма <a href="https://widget.premieralight.ru/ticket/return?widgetKey=19d21af1-60b1-11e6-8ddf-002590c30ad4">возврата билетов.</a>
+                </div>
+
+                <div>
+                    Работает на системе<br>
+                    Premiera Light
+                </div>
+            </div>
+
+        </div>
+
+    </div> -->
+
+</body>
+</html>

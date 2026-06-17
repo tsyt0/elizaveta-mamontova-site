@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/reset.css">
+    <link rel="stylesheet" href="/dist/css/normalize.css">
+    <link rel="stylesheet" href="/dist/css/style.min.css">
+    <title>Культурный центр "Елизавета Мамонтова"</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- хедер -->
+    <div class="main-section">
+        <div class="main-section__nav-background"></div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="container main-section_nav-container">
+            <header>
+                <a href="index.html">
+                    <img src="/src/icons/fullLogo.svg" alt="логотип" class="header__logo-full">
+                    <img src="/src/icons/logo.svg" alt="логотип" class="header__logo-mobile">
+                </a>
+            </header>
+            <nav class="main-section__nav nav-menu">
+
+                <button class="nav-menu__close">×</button>
+
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__list-item"><a href="index.html">Главная</a></li>
+                    <li class="nav-menu__list-item nav-menu__dropdown">
+                        <a href="#" class="nav-menu__link nav-menu__link_active">Посетителям</a>
+                        <ul class="nav-menu__submenu">
+                            <li><a href="afisha.html">Афиша</a></li>
+                            <li><a href="#">Кружки и клубы</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Виртуальная экскурсия</a></li>
+                            <li><a href="#">Наш зал</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu__list-item"><a href="#">О нас</a></li>
+                    <li class="nav-menu__list-item"><a href="#">Контакты</a></li>
+                    <li class="nav-menu__list-item_icon">
+                        <a href="#"><img src="/src/icons/visuallyImpaired.svg" alt=""></a>
+                    </li>
+                    <li class="nav-menu__list-item_icon">
+                        <a href="#"><img src="/src/icons/serch.svg" alt=""></a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="header__actions">
+                <a href="#" class="header__icon">
+                    <img src="/src/icons/visuallyImpaired.svg" alt="">
+                </a>
+                <a href="#" class="header__icon">
+                    <img src="/src/icons/serch.svg" alt="">
+                </a>
+            </div>
+            
+            <div class="nav-overlay"></div>
+            
+        </div>
+    </div>
+
+    <!-- события -->
+    <div class="afisha-tabs">
+        <div class="afisha-tabs__container">
+
+            <a href="#" class="afisha-tabs__item afisha-tabs__item_active">
+                Кино
+            </a>
+
+            <a href="#" class="afisha-tabs__item">
+                Концерт
+            </a>
+
+            <a href="#" class="afisha-tabs__item" id="cover-end">
+                Спектакль
+            </a>
+
+        </div>
+    </div>
+
+    <!-- афиши -->
+    <section class="movies">
+
+        <div class="movie-card">
+            <a href="filmCard1.html" class="movie-card__link">
+                <img src="img/Постер1.png" alt="" class="movie-card__img">
+            </a>
+
+            <div class="movie-card__content">
+                <a href="filmCard1.html" class="movie-card__link">
+                    <h1 class="movie-card__title">
+                        Три кота. Путешествие во времени
+                    </h1>
+
+                    <p class="movie-card__text">
+                        В семье котов очень важный день — десятилетняя годовщина знакомства мамы и папы...
+                    </p>
+                </a>
+
+                <button class="movie-card__btn">
+                    Купить билет
+                </button>
+            </div>
+
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_left">
+            
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_right">
+
+        </div>
+
+        <div class="movie-card">
+            <a href="filmCard1.html" class="movie-card__link">
+                <img src="img/Постер2.png" alt="" class="movie-card__img">
+            </a>
+            
+            
+            <div class="movie-card__content">
+                <a href="filmCard1.html" class="movie-card__link">
+                    <h1 class="movie-card__title">
+                        Снеговик
+                    </h1>
+
+                    <p class="movie-card__text">
+                        В Новый год волшебный мир рушится, магия Деда Мороза слабеет, и этим решает воспользоваться злая колдунья Вьюга. Она предаёт Деда Мороза и отправляется в мир людей, чтобы укрыть его вечной стужей. Защищать мир предстоит ожившему снеговику, которого слепила девочка Варя...
+                    </p>
+                </a>
+
+                <button class="movie-card__btn">
+                    Купить билет
+                </button>
+            </div>
+            
+
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_left">
+            
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_right">
+
+        </div>
+
+        <div class="movie-card">
+            <a href="filmCard3.html" class="movie-card__link">
+                <img src="img/Постер3.png" alt="" class="movie-card__img">
+            </a>
+
+            <div class="movie-card__content">
+                <a href="filmCard3.html" class="movie-card__link">
+                    <h1 class="movie-card__title">
+                        Волчок
+                    </h1>
+                </a>
+
+                <a href="filmCard3.html" class="movie-card__link">
+                    <p class="movie-card__text">
+                        Российская империя. Рубеж XIX и XX веков. Тринадцатилетний дворянин и сирота Ваня Огарев бежит из Москвы в Нижний Новгород, спасаясь от убийц, подосланных его собственным дядей, решившим завладеть наследством мальчика. Для своей защиты Ваня нанимает случайно подвернувшегося...
+                    </p>
+                </a>
+
+                <button class="movie-card__btn">
+                    Купить билет
+                </button>
+            </div>
+
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_left">
+            
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_right">
+
+        </div>
+
+        <div class="movie-card">
+            <a href="filmCard1.html" class="movie-card__link">
+                <img src="img/Постер4.png" alt="" class="movie-card__img">
+            </a>
+
+            <div class="movie-card__content">
+                <a href="filmCard1.html" class="movie-card__link">
+                    <h1 class="movie-card__title">
+                        Ёлки 12
+                    </h1>
+
+                    <p class="movie-card__text">
+                        В канун Нового года девятилетний Ваня из Кирова, узнав о расставании родителей, отправляется в Великий Устюг, чтобы попросить Деда Мороза о чуде.
+                    </p>
+                </a>
+
+                <button class="movie-card__btn">
+                    Купить билет
+                </button>
+            </div>
+
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_left">
+            
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_right">
+
+        </div>
+
+        <div class="movie-card">
+            <a href="filmCard1.html" class="movie-card__link">
+                <img src="img/Постер5.png" alt="" class="movie-card__img">
+            </a>
+
+            <div class="movie-card__content">
+                <a href="filmCard1.html" class="movie-card__link">
+                    <h1 class="movie-card__title">
+                        Невероятные приключения Шурика
+                    </h1>
+
+                    <p class="movie-card__text">
+                        Шурик сидит на скамейке и рассказывает случайным прохожим невероятную историю любви всей своей жизни — студентки, комсомолки и просто красавицы Нины.
+                    </p>
+                </a>
+
+                <button class="movie-card__btn">
+                    Купить билет
+                </button>
+            </div>
+
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_left">
+            
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_right">
+
+        </div>
+
+        <div class="movie-card">
+            <a href="filmCard1.html" class="movie-card__link">
+                <img src="img/Постер6.png" alt="" class="movie-card__img">
+            </a>
+
+            <div class="movie-card__content">
+                <a href="filmCard1.html" class="movie-card__link">
+                    <h2 class="movie-card__title">
+                        Шальная императрица
+                    </h2>
+
+                    <p class="movie-card__text">
+                        Санкт-Петербург. Подруги Лера, Валя и Оля ради смеха проводят мистический ритуал, и вдруг на кухне среди свечей материализуется сама Екатерина Великая. Императрица в короне стремительно осваивает XXI век: пробует капучино, в приложении такси ищет тариф «Карета»...
+                    </p>
+                </a>
+
+                <button class="movie-card__btn">
+                    Купить билет
+                </button>
+            </div>
+
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_left">
+            
+            <img src="icons/ГолубаяЗвезда.svg" alt="" class="movie-card__star movie-card__star_right">
+
+        </div>
+
+    </section>
+
+    <!-- страницы -->
+    <div class="pagination">
+
+        <button class="pagination__arrow pagination__arrow_left">
+            <img src="icons/КнопкаВлево.svg" alt="">
+        </button>
+
+        <button class="pagination__page pagination__page_active">
+            1
+        </button>
+
+        <button class="pagination__page">
+            2
+        </button>
+
+        <button class="pagination__page">
+            3
+        </button>
+
+        <button class="pagination__arrow pagination__arrow_right">
+            <img src="icons/КнопкаВправо.svg" alt="">
+        </button>
+
+    </div>
+
+    <!-- футер -->
+    <footer class="footer">
+
+        <div class="footer__top-line"></div>
+
+        <div class="footer__container">
+
+            <div class="footer__contacts">
+
+                <div class="footer__item">
+                    <h3>Телефон:</h3>
+                    <p>+7 496 543-22-14</p>
+                </div>
+
+                <div class="footer__item">
+                    <h3>Почта:</h3>
+                    <p>centrmamontovoi@yandex.ru</p>
+                </div>
+
+                <div class="footer__item">
+                    <h3>Адрес:</h3>
+                    <p>
+                        Московская область, Сергиево-Посадский городской <br> округ, г. Хотьково, ул.Калинина, д.4-а
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="footer__socials">
+
+                <a href="#">
+                    <img src="icons/vk.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="icons/telegram.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="icons/ok.svg" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+        <button class="scroll-top">
+            <img src="icons/КнопкаНаверх.svg" alt="">
+        </button>
+
+    </footer>
+
+</body>
+</html>

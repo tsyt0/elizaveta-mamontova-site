@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/reset.css">
+    <link rel="stylesheet" href="/dist/css/normalize.css">
+    <link rel="stylesheet" href="/dist/css/style.min.css">
+    <title>Культурный центр "Елизавета Мамонтова"</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- хедер -->
+    <div class="main-section">
+        <div class="main-section__nav-background"></div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="container main-section_nav-container">
+            <header>
+                <a href="index.html">
+                    <img src="/src/icons/fullLogo.svg" alt="логотип" class="header__logo-full">
+                    <img src="/src/icons/logo.svg" alt="логотип" class="header__logo-mobile">
+                </a>
+            </header>
+            <nav class="main-section__nav nav-menu">
+
+                <button class="nav-menu__close">×</button>
+
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__list-item"><a href="index.html">Главная</a></li>
+                    <li class="nav-menu__list-item nav-menu__dropdown">
+                        <a href="#" class="nav-menu__link nav-menu__link_active">Посетителям</a>
+                        <ul class="nav-menu__submenu">
+                            <li><a href="afisha.html">Афиша</a></li>
+                            <li><a href="#">Кружки и клубы</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Виртуальная экскурсия</a></li>
+                            <li><a href="#">Наш зал</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu__list-item"><a href="#">О нас</a></li>
+                    <li class="nav-menu__list-item"><a href="#">Контакты</a></li>
+                    <li class="nav-menu__list-item_icon">
+                        <a href="#"><img src="/src/icons/visuallyImpaired.svg" alt=""></a>
+                    </li>
+                    <li class="nav-menu__list-item_icon">
+                        <a href="#"><img src="/src/icons/serch.svg" alt=""></a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="header__actions">
+                <a href="#" class="header__icon">
+                    <img src="/src/icons/visuallyImpaired.svg" alt="">
+                </a>
+                <a href="#" class="header__icon">
+                    <img src="/src/icons/serch.svg" alt="">
+                </a>
+            </div>
+            
+            <div class="nav-overlay"></div>
+            
+        </div>
+    </div>
+
+    <!-- карточка фильма -->
+     <section class="film-card">
+
+        <div class="film-card__wrapper"  id="cover-end">
+
+            <img src="#" alt="" class="film-card__poster">
+
+            <div class="film-card__info">
+
+                <div class="film-card__header">
+                    <h1 class="film-card__title">
+                        Lorem, ipsum.
+                    </h1>
+
+                    <span class="film-card__age">
+                        0+
+                    </span>
+                </div>
+
+                <div class="film-card__text-wrapper">
+
+                    <p class="film-card__description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam est qui quam odio alias tempore quia incidunt nihil distinctio quod, ex nobis voluptatibus, sed magnam repudiandae sit sunt! Accusamus mollitia, eligendi doloremque esse velit dolore sunt quam, ratione tempora quod ut corporis maxime voluptate dolorum illo rem cumque ipsa similique odio neque optio necessitatibus non in. Accusamus voluptatum laudantium vel velit itaque nesciunt doloremque architecto, corporis maiores deserunt consequuntur, ut at. Id non hic laboriosam unde, debitis quas magni illum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos repellendus sit enim explicabo officiis sed sapiente, labore molestiae distinctio voluptatum?
+                    </p>
+
+                    <button class="film-card__expand">
+                        <span>Развернуть</span>
+                        <img src="icons/СтрелкаРазвернуть.svg" alt="">
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="film-card__bottom">
+
+            <div class="film-card__rating">
+
+                <span class="film-card__rating-text">
+                    Рейтинг
+                </span>
+
+                <div class="film-card__stars">
+                    <span class="film-card__star film-card__star_active">★</span>
+                    <span class="film-card__star film-card__star_active">★</span>
+                    <span class="film-card__star film-card__star_active">★</span>
+                    <span class="film-card__star film-card__star_active">★</span>
+                    <span class="film-card__star">★</span>
+                </div>
+
+                <span class="film-card__score">
+                    0.0
+                </span>
+
+            </div>
+
+            <button class="film-card__btn">
+                Купить билет
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- информвция -->
+    <div class="film-info">
+
+        <div class="film-info__row">
+            <span class="film-info__label">Страна</span>
+            <span class="film-info__value">lorem</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Продолжительность</span>
+            <span class="film-info__value">0 часа 0 минуты</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Год выпуска</span>
+            <span class="film-info__value">0000</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Премьера в мире</span>
+            <span class="film-info__value">0 lorem 0000</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">
+                Дата выхода
+                <img src="icons/КнопкаРазвернутьЖирная.svg" alt="">
+            </span>
+
+            <div class="film-info__value film-info__value_multiple">
+                <span>0 lorem 0000</span>
+                <span>lorem</span>
+            </div>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Бюджет</span>
+            <span class="film-info__value">0 RUR</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Сборы в мире</span>
+            <span class="film-info__value">$0</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">Производство</span>
+            <span class="film-info__value">Lorem, ipsum dolor.</span>
+        </div>
+
+        <div class="film-info__row">
+            <span class="film-info__label">
+                Другие названия
+                <img src="icons/КнопкаРазвернутьЖирная.svg" alt="">
+            </span>
+
+            <span class="film-info__value">
+                Lorem, ipsum.
+            </span>
+        </div>
+
+    </div>
+
+    <!-- трейлер -->
+     <div class="film-trailer">
+
+        <img src="icons/КраснаяЗвезда.svg"
+            alt=""
+            class="film-trailer__star film-trailer__star_left">
+
+        <img src="icons/КраснаяЗвезда.svg"
+            alt=""
+            class="film-trailer__star film-trailer__star_right">
+
+        <div class="film-trailer__wrapper">
+
+            <div class="film-trailer__title">
+                Трейлер
+            </div>
+
+            <div class="film-trailer__video">
+
+                <img src="#" alt="Трейлер фильма">
+
+                <button class="film-trailer__play">
+                    <img src="icons/КнопкаPlay.svg" alt="play">
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- каст -->
+     <section class="film-team">
+
+        <div class="film-team__wrapper">
+
+            <div class="film-team__director">
+
+                <h2 class="film-team__title">
+                    Режиссер
+                </h2>
+
+                <div class="film-team__person">
+
+                    <img src="img/Фото.png"
+                        alt=""
+                        class="film-team__photo">
+
+                    <span class="film-team__name">
+                        lorem<br>lorem
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="film-team__divider"></div>
+
+            <div class="film-team__cast">
+
+                <h3 class="film-team__title">
+                    В ролях
+                </h3>
+
+                <div class="film-team__actors">
+
+                    <div class="film-team__person">
+                        <img src="img/Фото.png" alt="">
+                        <span>lorem<br>lorem</span>
+                    </div>
+
+                    <div class="film-team__person">
+                        <img src="img/Фото.png" alt="">
+                        <span>lorem<br>lorem</span>
+                    </div>
+
+                    <div class="film-team__person">
+                        <img src="img/Фото.png" alt="">
+                        <span>lorem<br>lorem</span>
+                    </div>
+
+                    <div class="film-team__person">
+                        <img src="img/Фото.png" alt="">
+                        <span>lorem<br>lorem</span>
+                    </div>
+
+                    <div class="film-team__person">
+                        <img src="img/Фото.png" alt="">
+                        <span>lorem<br>lorem</span>
+                    </div>
+
+                </div>
+ 
+            </div>
+
+            <a href="#" class="film-team__more">
+                Подробнее
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- расписание -->
+    <section class="film-schedule">
+
+        <img src="icons/3полоскиВертикальныеСлева.svg"
+            alt=""
+            class="film-schedule__decor film-schedule__decor_left">
+
+        <img src="icons/3полоскиВертикальныеСправа.svg"
+            alt=""
+            class="film-schedule__decor film-schedule__decor_right">
+
+        <div class="film-schedule__wrapper">
+
+            <h2 class="film-schedule__title">
+                Расписание и билеты
+            </h2>
+
+            <div class="film-schedule__day">
+
+                <p class="film-schedule__date">
+                    00 lorem (lorem)
+                </p>
+
+                <div class="film-schedule__sessions">
+
+                    <div class="film-schedule__session">
+                        <span class="film-schedule__time">00:00</span>
+                        <span class="film-schedule__price">от 000 ₽</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="film-schedule__day">
+
+                <p class="film-schedule__date">
+                    00 lorem (lorem)
+                </p>
+
+                <div class="film-schedule__sessions">
+
+                    <div class="film-schedule__session">
+                        <span class="film-schedule__time">00:00</span>
+                        <span class="film-schedule__price">от 000 ₽</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="film-schedule__day">
+
+                <p class="film-schedule__date">
+                    00 lorem (lorem)
+                </p>
+
+                <div class="film-schedule__sessions">
+
+                    <div class="film-schedule__session">
+                        <span class="film-schedule__time">00:00</span>
+                        <span class="film-schedule__price">от 000 ₽</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="film-schedule__btn">
+                Полное расписание
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- футер -->
+    <footer class="footer">
+
+        <div class="footer__top-line"></div>
+
+        <div class="footer__container">
+
+            <div class="footer__contacts">
+
+                <div class="footer__item">
+                    <h3>Телефон:</h3>
+                    <p>+7 496 543-22-14</p>
+                </div>
+
+                <div class="footer__item">
+                    <h3>Почта:</h3>
+                    <p>centrmamontovoi@yandex.ru</p>
+                </div>
+
+                <div class="footer__item">
+                    <h3>Адрес:</h3>
+                    <p>
+                        Московская область, Сергиево-Посадский городской <br> округ, г. Хотьково, ул.Калинина, д.4-а
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="footer__socials">
+
+                <a href="#">
+                    <img src="icons/vk.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="icons/telegram.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="icons/ok.svg" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+        <button class="scroll-top">
+            <img src="icons/КнопкаНаверх.svg" alt="">
+        </button>
+
+    </footer>
+
+</body>
+</html>
